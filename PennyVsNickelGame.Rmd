@@ -112,7 +112,7 @@ A. Use Spinner A to choose either "Penny" or "Nickel"
 
 B. Note whether or not the outcome of the "spin" was "Penny"
 
-C. Assess whether 8 Penny outcomes OR 8 Nickel outcomes have been observed  
+C. Assess whether 5 Penny outcomes OR 5 Nickel outcomes have been observed  
 
 D. If Penny was observed 5 times (before Nickel), "Penny" wins the round; If Nickel was observed 5 times (before Penny), "Nickel" wins the round  
 
@@ -127,7 +127,7 @@ F. Calculate the proportion of rounds that were won by "Penny"
 - Create a vector aligned to Spinner A: `c("Penny", "Penny", "Penny", "Penny", "Nickel", "Nickel")`
 - Use the `sample( )` function to simulate one spin
 - Since we plan to simulate many rounds of the game, we need to initialize a placeholder vector to store the result of each simulated round (i.e. `pennyWins <- rep(NA, nsim)`)
-- Write a **`while`** loop to repeatedly document the results of each spin in the round until one of the coins is observed 8 times (hint: you'll need another vector to store outcomes within each round)
+- Write a **`while`** loop to repeatedly document the results of each spin in the round until one of the coins is observed 5 times (hint: you'll need another vector to store outcomes within each round)
 - **`if`** Penny won the simulated round, note that result
 - Wrap the game in a **`for`** loop to note whether Penny won each of the simulated rounds
 - Calculate the proportion of simulated rounds that were won by the Penny!
