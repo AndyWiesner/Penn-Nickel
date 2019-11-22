@@ -28,8 +28,8 @@ Here are a few remarks about game play:
 - (Step 2) Game board details
     - Fun way to play: You can use coins to tally the Penny vs Nickel result on the provided game board
     - Less fun (but equivalent) alternative: You can just tally the number of "Penny" outcomes and "Nickel" outcomes for each round on a sheet.
-- (Step 3) When one of coins has reached the top of the game board (i.e. observed 8 times), we declare that coin winner of the **ROUND**
-- *You may skip Steps 4 through 8*
+- (Step 3) When one of coins has reached the top of the game board (i.e. observed 5 times), we declare that coin winner of the **ROUND**
+- *You may skip Steps 4 through *
 
 
 ### Play the game "Which Coin Will Win?" 
@@ -114,7 +114,7 @@ B. Note whether or not the outcome of the "spin" was "Penny"
 
 C. Assess whether 8 Penny outcomes OR 8 Nickel outcomes have been observed  
 
-D. If Penny was observed 8 times (before Nickel), "Penny" wins the round; If Nickel was observed 8 times (before Penny), "Nickel" wins the round  
+D. If Penny was observed 5 times (before Nickel), "Penny" wins the round; If Nickel was observed 5 times (before Penny), "Nickel" wins the round  
 
 E. Simulate many rounds of the game
 
